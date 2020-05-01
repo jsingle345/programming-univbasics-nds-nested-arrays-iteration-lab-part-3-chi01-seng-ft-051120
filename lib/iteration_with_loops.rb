@@ -10,10 +10,10 @@ def join_nested_strings(src)
       total = total + src[row_index][element_index]
       element_index += 1 
     end
-    row_index +=
+    row_index +=binding.pry
   end
   total
-  binding.pry
+  
 end
 
 
