@@ -1,5 +1,3 @@
-require 'pry'
-
 def join_nested_strings(src)
   
   total = ""
