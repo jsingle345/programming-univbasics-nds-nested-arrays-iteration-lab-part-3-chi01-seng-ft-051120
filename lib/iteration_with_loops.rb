@@ -11,9 +11,9 @@ def join_nested_strings(src)
         total << src[row_index][element_index]
       end
       element_index += 1 
-      total
     end
-    row_index += 
+    total
+    row_index +=
   end     
 end
 
